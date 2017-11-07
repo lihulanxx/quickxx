@@ -4,12 +4,12 @@
 /*==============================================================*/
 
 
-drop table if exists ad;
+drop table if exists shop_ad;
 
 /*==============================================================*/
-/* Table: ad                                                    */
+/* Table: shop_ad                                                    */
 /*==============================================================*/
-create table ad
+create table shop_ad
 (
    id                   bigint(20) not null comment 'id',
    create_date          datetime not null comment '创建日期',
